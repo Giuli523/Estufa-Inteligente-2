@@ -1,0 +1,41 @@
+
+/* Estilos personalizados para a interface móvel */
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #0d0d0d; /* Fundo bem escuro */
+    padding-top: 1rem;
+}
+.app-container {
+    width: 100%;
+    max-width: 420px; /* Largura típica de celular */
+    min-height: 80vh;
+    background-color: #1a1a1a; /* Fundo do app */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+/* Estilo para os botões circulares (+/-) */
+.control-button {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #374151;
+    font-size: 2rem;
+    line-height: 1;
+    transition: all 0.2s;
+    user-select: none;
+    cursor: pointer;
+}
+.control-button:hover {
+    background-color: #374151;
+}
+.control-button:active {
+    transform: scale(0.95);
+}
